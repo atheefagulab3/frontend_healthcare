@@ -1,0 +1,194 @@
+/* body {
+    margin: 0;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 260px;
+    height: 100vh;
+    transition: left 0.3s ease;
+    background-color: #0a067ef4;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: 0px;
+    right: -35px;
+    width: 35px;
+    height: 100%;
+    background-color: #09c6fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .toggle-icon {
+    width: 16px;
+    height: 3px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  
+  .toggle-icon:before,
+  .toggle-icon:after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 3px;
+    background-color: #ffffff;
+  }
+  
+  .toggle-icon:before {
+    top: -6px;
+  }
+  
+  .toggle-icon:after {
+    top: 6px;
+  }
+  
+  .content {
+    margin-left: 260px;
+    padding: 20px;
+    height: 100vh;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .subsection {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+  .subsection h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subsection p {
+    margin-bottom: 0;
+  }
+  
+  .nav-link {
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .nav-link.active {
+    background-color: #ddd;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    width: calc(50% - 10px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+  .card-content {
+    margin-top: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .card-description {
+    margin-bottom: 5px;
+  }
+  
+  .card-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 200px;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: top;
+  }
+  #headd{
+    
+      background-color:#09c6fa ;
+    
+  }
+  
+  #headingg{
+    color: white;
+  } */
+  /* CSS for AdminLogin Component */
+
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://w.forfun.com/fetch/0e/0e23ad64896003d1e47e0d899e178fab.jpeg?w=1470&r=0.5625');
+  background-size: cover;
+  background-position: center;
+}
+
+.admin-login-card {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-login-card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-login-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-login-card .form-label {
+  font-weight: bold;
+}
+
+.admin-login-card .form-control {
+  margin-bottom: 10px;
+}
+
+.admin-login-card .btn-primary {
+  width: 100%;
+  margin-top: 20px;
+}

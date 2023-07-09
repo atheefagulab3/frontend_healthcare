@@ -1,0 +1,65 @@
+.bg-emerald-500 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('https://w.forfun.com/fetch/0e/0e23ad64896003d1e47e0d899e178fab.jpeg?w=600&r=0.5625');
+    background-repeat: no-repeat;
+    /* Additional background properties if needed */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .max-w-md {
+    max-width: 28rem;
+  }
+  button {
+    background-color: #06b0ed57;
+    color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  width: auto;
+  border-radius: 0.25rem;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+   justify-items: center;
+  }
+  
+  button:hover {
+    background-color: #05809651;
+  }
+  bg-form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .form-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-title svg {
+    margin-right: 10px;
+  }
+  
+  .form-input {
+    margin-bottom: 20px;
+  }
+  
+  .form-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-button .btn-primary {
+    width: 160px;
+  }

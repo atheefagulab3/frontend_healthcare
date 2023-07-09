@@ -1,0 +1,52 @@
+.App {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .sidebar-entry {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-entry:hover,
+  .sidebar-entry.active {
+    background-color: #d0d0d0;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  .field-line {
+    border-bottom: 1px solid #ccc;
+    margin: 8px 0;
+  }
+  .sidebar {
+    /* existing styles */
+  
+    position: relative;
+  }
+  
+  .sidebar-toggle-btn {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 8px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+  }
+  
+    
